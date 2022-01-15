@@ -7,9 +7,6 @@ anim.animName = 'base';
 anim.speed = 2;
 anim.flag = 1;
 
-DoScreenFadeIn(10)
-ClearPedTasksImmediately(PlayerPedId())
-FreezeEntityPosition(PlayerPedId(), false)
 
 function LoadAnimation(dict)
 	RequestAnimDict(dict)
